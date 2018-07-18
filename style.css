@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Cocogothic';
+    src: url('fonts/coco-gothic.regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CocogothicL';
+  src: url('fonts/coco-gothic.light.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+     font-family: 'Cocogothic', sans-serif;
+     
+  }
+
+  .wrapper {
+    min-width: 320px!important;
+    width: 100%;
+    margin-bottom: 0px;
+
+  }
+
+
+  .container-fluid {
+    margin: 0 auto;
+   
+  }
+
+  .main-navigation {
+    margin: 0 auto;
+    left: -1px;
+    position: fixed;
+    width: 101%;
+    height: 100px;
+    z-index: 100;
+    background-color: #407ceb;
+
+  }
+
+  .main-menu {
+    color: #fff;
+    padding-top: 40px;
+    float: right;
+  }
+
+
+  .main-menu li {
+    display: inline-block;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: border-width 0.2s;
+    font-family: 'Cocogothic', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+  }
+
+  .main-menu li a,
+  a:hover,
+  a:active,
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-menu li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 0px solid #eee;
+    
+    transition: border-width 0.2s;
+  }
+
+  .active2 {
+    border-bottom: 2px solid white!important;
+    padding-bottom: 3px;
+  }
+
+  .main-menu li a,
+  a:hover,
+  a:active,
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-menu li:hover {
+    cursor: pointer;
+    border-width: 2px;
+  }
+
+  .main-menu li:first-child {
+    margin-left: 0;
+  }
+
+  .logo h1 {
+    padding-top: 10px;
+    padding-left: 60px;
+    color: #fff;
+  }
+
+  .projects-section {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .projects-section h2,
+  .skills-section h2,
+  .contact-section h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Cocogothic', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .skills-section {
+    background-color: #ECF0F1;
+    width: 100%;
+    padding-bottom: 50px;
+    font-family: 'CocogothicL', sans-serif;
+    font-weight: 400;
+
+  }
+
+  .strong-text {
+    font-weight: 700;
+    font-size: 25px;
+    display: block;
+  }
+
+  .project-img {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 90%;
+    height: auto;
+    -webkit-transition: filter 1s;
+    transition: filter 1s;
+  }
+
+  .project-img:hover {
+
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+
+  }
+
+  .title-border {
+    border: 0px solid white;
+    padding: 10px 15px;
+    width: 120px;
+    margin: 0 auto;
+    background-color: #407ceb;
+    border-radius: 2px;
+  }
+
+
+  .mobile-menu-icon {
+    display: none;
+    color: white;
+    font-size: 40px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+  }
+
+  .mobile-menu-icon:hover {
+    cursor: pointer;
+  }
+
+  .responsive-menu {
+
+    overflow: hidden;
+    z-index: 10;
+    top: 20px;
+    left: 0;
+    height: 0px;
+    width: 100%;
+    background-color: #407ceb;
+    text-transform: uppercase;
+  }
+
+  .mobile-menu {
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: 'Cocogothic', sans-serif;
+  }
+
+  .mobile-menu a,
+  a:visited,
+  a:active,
+  a:hover {
+    color: white;
+  }
+
+  .mobile-menu li {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .coming-soon {
+    position: relative;
+    clip: rect(0px, 500px, 400px, 0px);
+
+  }
+
+  .pen-center {
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 715px) {
+    .responsive-menu {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 715px) {
+    .main-menu {
+      display: none;
+    }
+    .mobile-menu-icon {
+      display: block;
+      margin: 0 auto;
+      margin-top: 24px;
+      margin-right: 40px;
+    }
+
+
+  }
+
+  
+  #titulologo {
+    display: inline-block;
+   
+    
+    margin-left: 30px;
+  }
+
+  .carousel-inner {
+    margin-top: 95px;
+  }
+
+
+
+  .progress-html {
+    background-color: #f16529;
+  }
+  .progress-css {
+    background-color: #2aa9e0;
+  }
+  .progress-illus {
+    background-color: #ff7d00;
+  }
+  .progress-js {
+    background-color: #e9cf24;
+  }
+  .progress-photo {
+    background-color: #00ccff;
+  }
+  .progress-effect {
+    background-color: #d291ff;
+  }
+  .progress-premier {
+    background-color: #a977b4;
+  }
+  .progress-corel {
+    background-color: #6ebe4f;
+  }
+
+  .contact-section {
+    width: 100%;
+  }
+
+  .footerimg {
+    width: 100%
+  }
+
+  .footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  #imagenlogo {
+    display: inline-block;
+  
+  }
